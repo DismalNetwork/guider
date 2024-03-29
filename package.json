@@ -1,0 +1,29 @@
+{
+  "name": "guider",
+  "version": "1.0.0",
+  "description": "Guider bot to help people register.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DismalNetwork/guider.git"
+  },
+  "author": "PiggyPlex <piggyplex@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DismalNetwork/guider/issues"
+  },
+  "homepage": "https://github.com/DismalNetwork/guider#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
