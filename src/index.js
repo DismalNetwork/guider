@@ -34,11 +34,11 @@ client.on('guildMemberAdd', async (member) => {
   });
 });
 
-client.on('messageCreate', async (message) => {
-  if (message.content === 'emit-guildMemberAdd') {
-    client.emit('guildMemberAdd', message.member);
-  }
-});
+// client.on('messageCreate', async (message) => {
+//   if (message.content === 'emit-guildMemberAdd') {
+//     client.emit('guildMemberAdd', message.member);
+//   }
+// });
 
 client.login(process.env.TOKEN);
 
